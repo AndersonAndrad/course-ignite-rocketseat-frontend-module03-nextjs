@@ -1,3 +1,5 @@
+//shared components
+import { SingInButton } from '../SingInButton'
 // styles
 import styles from './styles.module.scss'
 
@@ -10,6 +12,7 @@ export function Header () {
           <a className={styles.active}>Home</a>
           <a>Posts</a>
         </nav>
+        <SingInButton />
       </div>
     </header>
   )
