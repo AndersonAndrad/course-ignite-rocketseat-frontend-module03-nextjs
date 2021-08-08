@@ -8,6 +8,6 @@ export const stripe = new Stripe(
     appInfo: {
       name,
       version
-    }
+    },
   }
 )
