@@ -1,37 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Welcome to ig.news 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: mit" src="https://img.shields.io/badge/License-mit-yellow.svg" />
+  </a>
+</p>
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+## Summary
+
+- [Why this project](#why-this-project)
+- [Why I used these technologies](#why-i-used-these-technologies)
+- [How to use](#how-to-use)
+- [👤 Authors](#👤-Authors)
+
+---------------------------------------
+## Show application
+<img alt="Version" src="https://raw.githubusercontent.com/AndersonAndrad/course-ignite-rocketseat-frontend-module03-nextjs/main/images_documantation/home.png" />
+
+<img alt="Version" src="https://raw.githubusercontent.com/AndersonAndrad/course-ignite-rocketseat-frontend-module03-nextjs/main/images_documantation/posts.png" />
+
+## Why this project
+
+This project was built to train nextjs features
+
+## Why I used these technologies
+
+- Nextjs
+- Stripe
+- Axios
+- Fauna
+- Sass
+
+### install
+
+```sh
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### usage
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+yarn dev
+```
+### active stripe in dev environment
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-
+```sh
 stripe listen --forward-to localhost:3000/api/webhooks
+```
+-----------------------
+
+## 👤 Authors
+
+|                                                              |
+| :----------------------------------------------------------- |
+| Github: [@AndersonAndrad](https://github.com/AndersonAndrad) |
+| LinkedIn: [@AndersonAndrad](https://linkedin.com/in/AndersonAndrad) |
+| <img src="https://avatars0.githubusercontent.com/u/31743641?s=400&u=b6d9e1c428279846440325b0fae90f4b9c4d1d98&v=4" width="110"> |
+
+--------------
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AndersonAndrad/course-ignite-rocketseat-frontend-module03-nextjs/issues). 
+
+------------------------------
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
