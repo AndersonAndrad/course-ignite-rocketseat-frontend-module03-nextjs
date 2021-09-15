@@ -1,18 +1,13 @@
-// types
 import { GetStaticProps } from 'next'
-// dependencies
 import Head from 'next/head'
-// styles
-import styles from '../../styles/home.module.scss'
-// shared components
 import { SubscribeButton } from '../components/SubscribeButton'
-// services
 import { stripe } from '../services/stripe'
+import styles from '../../styles/home.module.scss'
 
 type HomeProps = {
   product: {
     priceId: string
-    amount: number
+    amount: string
   }
 }
 
@@ -27,7 +22,7 @@ export default function Home ( { product }: HomeProps ) {
           <span>👏 Hey, welcome</span>
           <h1>News about the <span>React</span> world.</h1>
           <p>Get access to all the publication <br /> <span>for {product.amount} month</span></p>
-          <SubscribeButton priceId={product.priceId} />
+          <SubscribeButton />
         </section>
         <img src="/images/avatar.svg" alt="girl coding" />
       </main>
