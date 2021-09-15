@@ -1,16 +1,11 @@
-// dependencies
 import { signIn, useSession } from 'next-auth/client'
-import { useRouter } from 'next/dist/client/router'
+
 import { api } from '../../services/api'
 import { getStripeJs } from '../../services/stripe-js'
-// styles
 import styles from './styles.module.scss'
-// types
-type SubscribeProps = {
-  priceId: string
-}
+import { useRouter } from 'next/router'
 
-export function SubscribeButton ( { priceId }: SubscribeProps ) {
+export function SubscribeButton () {
   const [session] = useSession()
   const router = useRouter()
 
